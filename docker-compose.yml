@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  apartment-finder:
+    build: .
+    volumes:
+      - ./:/app
+    environment:
+      - TZ=Europe/Budapest
+      - PYTHONUNBUFFERED=1
+    restart: "no"
