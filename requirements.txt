@@ -1,5 +1,5 @@
 # requirements.txt
 requests==2.31.0
 beautifulsoup4==4.12.2
-geopy==2.4.1
+geopy==2.4.1cd  
 lxml==4.9.3
