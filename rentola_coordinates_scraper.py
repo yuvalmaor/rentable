@@ -18,8 +18,8 @@ class RentolaCoordinatesScraper:
         self.search_params = {
             "location": "budapest",
             "rent_per": "month",
-            "rent": "0-700",
-            "rooms": "2-3"
+            "rent": "0-700",#price
+            "rooms": "2-3"#rooms
         }
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
